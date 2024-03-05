@@ -1,0 +1,61 @@
+a = 11
+b = 3
+print (a+b*a)
+print (b*a+b)
+print (a//b)
+print (b%a)
+print (a%b)
+print (b//a)
+print (b-a/b)
+print (a/b-a*b)
+print (10+a%b)
+print (10-b//a)
+print (b//a-50)
+print (a+b%a-a//b*2)
+print (a*(b+a)-(a-b)/2)
+
+x = True
+y = False
+
+print (x and y)
+print (x or y)
+print (x and y or x)
+print (not (x or not y))
+print (not (not x and not y))
+print (not (not x and not y))
+print (not x and y)
+print (not(x and y))
+print (not x and y or x)
+print (not (x and y)and y)
+print (x and y or y and not x)
+print (not(x or y and y or y))
+
+a = 5
+b = 9
+x = not True
+y = False and True
+m = "casa"
+n = "mesa"
+
+print (x and y == x or y)
+print (a * b <= b - a)
+print (not(a == b or not b != a))
+print (not(m != n and b> a))
+print (b + a <= a * b and y)
+print (x and not y or a // b != a % b)
+
+print ()
+
+print ("alo mundo")
+num1 =int (input ("digite o primeiro numero: "))
+num2 =int (input ("digite o segundo numero: "))
+print(num1+num2)
+
+print ()
+
+nota1 = int (input("digite a nota do primeiro bimestre: "))
+nota2 = int (input("digite a nota do segundo bimestre:"))
+nota3 = int (input("digite a nota do terceiro bimestre:"))
+nota4 = int (input("digite a nota do quarto bimestre:"))
+media = (nota1+nota2+nota3+nota4) / 4
+print(media)
